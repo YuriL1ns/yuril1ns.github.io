@@ -92,3 +92,13 @@ h3 {
     display: block;
     margin-top: 10px;
 }
+
+.footer {
+    font-family: 'Oldenburg', cursive;;
+    margin-top: 40px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0px;
+    font-weight: bold;
+}
