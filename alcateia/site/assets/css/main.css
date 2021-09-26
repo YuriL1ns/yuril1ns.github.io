@@ -39,6 +39,11 @@ body {
     border: 3px solid white;
     box-shadow: 0 0 100px white;
 }
+
+.bold {
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font: bold;
+}
 ol, ul {
 	list-style: none;
 }
@@ -2053,7 +2058,7 @@ input, select, textarea {
 			display: inline-block;
 			height: 1px;
 			margin-top: 1.5em;
-			width: 6em;
+			width: 15em;
 		}
 
 		header.major h2, header.major h3, header.major h4, header.major h5, header.major h6 {
