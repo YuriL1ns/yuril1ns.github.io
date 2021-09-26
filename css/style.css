@@ -94,8 +94,10 @@ h3 {
 }
 
 .footer {
+    align-self: baseline;
     font-family: 'Oldenburg', cursive;;
     margin-top: 40px;
+    display: block;
     background-color: black;
     color: white;
     text-align: center;
