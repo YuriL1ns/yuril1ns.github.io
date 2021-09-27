@@ -14,21 +14,94 @@
 	</head>
 	<body class="is-preload">
 
+		<SCRIPT LANGUAGE="JAVASCRIPT" class="hora">
+			
+			
+			
+			var now = new Date();
+			var mName = now.getMonth() +1 ;
+			var dName = now.getDay() +1;
+			var dayNr = now.getDate();
+			var yearNr=now.getYear();
+			if(dName==1) {Day = "Domingo";}
+			if(dName==2) {Day = "Segunda-feira";}
+			if(dName==3) {Day = "Terça-feira";}
+			if(dName==4) {Day = "Quarta-feira";}
+			if(dName==5) {Day = "Quinta-feira";}
+			if(dName==6) {Day = "Sexta-feira";}
+			if(dName==7) {Day = "Sábado";}
+			if(mName==1){Month = "Janeiro";}
+			if(mName==2){Month = "Fevereiro";}
+			if(mName==3){Month = "Março";}
+			if(mName==4){Month = "Abril";}
+			if(mName==5){Month = "Maio";}
+			if(mName==6){Month = "Junho";}
+			if(mName==7){Month = "Julho";}
+			if(mName==8){Month = "Agosto";}
+			if(mName==9){Month = "Setembro";}
+			if(mName==10){Month = "Outubro";}
+			if(mName==11){Month = "Novembro";}
+			if(mName==12){Month = "Dezembro";}
+			if(yearNr < 2000) {Year = 1900 + yearNr;}
+			else {Year = yearNr;}
+			var todaysDate =(" " + Day + ", " + dayNr + "/" + Month + "/" + Year);
+			
+			document.write('  '+todaysDate);
+			
+			//-->
+			</SCRIPT>
+			
+			  
+			<SPAN ID="Clock">00:00:00</SPAN>
+			
+			<SCRIPT LANGUAGE="JavaScript">
+			
+			  var Elem = document.getElementById("Clock");
+			  function Horario(){ 
+				var Hoje = new Date(); 
+				var Horas = Hoje.getHours(); 
+				if(Horas < 10){ 
+				  Horas = "0"+Horas; 
+				} 
+				var Minutos = Hoje.getMinutes(); 
+				if(Minutos < 10){ 
+				  Minutos = "0"+Minutos; 
+				} 
+				var Segundos = Hoje.getSeconds(); 
+				if(Segundos < 10){ 
+				  Segundos = "0"+Segundos; 
+				} 
+				Elem.innerHTML = Horas+":"+Minutos+":"+Segundos; 
+				} 
+				window.setInterval("Horario()",1000);
+			//-->
+			</SCRIPT>
+
+
+
 		<!-- Header -->
 			<section id="header">
+				<div id="bg"></div>
+
 				<div class="inner">
 					<img src="images/logo-nova-alcateia.png" alt="logo" class="logo">
 					<h1>
 						ALCATÉIA | E-SPORTS
 					
 					</h1>
-					
-					<p>O Maior XTreino de Call of Duty:Mobile da América Latina!<br/>
-					Contamos com os melhores colaboradores e players do cenário.</p>
+					<ul class="links-list">
+					</ul>
+				
+					<p class="primeiro">
+						
+						<strong> O Maior XTreino de Call of Duty:Mobile da América Latina!
+						</strong>
+
+					</p>
 					<ul class="actions special">
 						<li>
 							<a href="https://chat.whatsapp.com/HXNygiYdiJxJZ8M4uZZAXR" class="button scrolly">
-								PARTICIPE JÁ
+								PARTICIPE JÁ!
 
 							</a>
 						</li>
@@ -47,7 +120,7 @@
 									de COD:Mobile<br>
 									da América Latina!</h2>
 							</header>
-							<p>Fundado desde 2019, seguindo o lançamento do COD:Mobile, hoje nos orgulhamos em ser espelho para outras organizações e ter conquistado o título de maior e melhor XTreino de Call of Duty da América Latina.</p>
+							<p>O mais antigo Xtreino do Brasil, seguindo o lançamento do COD:Mobile, hoje nos orgulhamos em ser espelho para outras organizações e ter conquistado o título de maior e melhor XTreino de Call of Duty da América Latina.</p>
 						</div>
 						<div class="col-6 col-12-medium imp-medium">
 							<span class="image fit"><img src="images/thumnail.png" alt="" /></span>
@@ -562,7 +635,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<section id="footer">
 				<ul class="icons">
 					<li>
-						<a href="site.html" class="icon solid fa-globe">
+						<a href="index.html" class="icon solid fa-globe">
 							<span class="label">
 								Globe
 
@@ -596,6 +669,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 					<li>&copy; Todos os direitos reservados</li><li>Developed by: <a href="https://www.instagram.com/bishop.streamer/">Yuri Lins</a></li>
 				</ul>
 			</section>
+				
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
@@ -604,6 +678,6 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
+				
 	</body>
 </html>
