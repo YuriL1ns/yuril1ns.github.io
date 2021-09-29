@@ -8,6 +8,8 @@
 
     html, body {
         height: 100%;
+        display: block;
+        display: inherit;
     }
 
     .back {
@@ -32,13 +34,10 @@
         
         font-family: 'Raleway', sans-serif;
         color: white;
-        background-image: url("/img/shotback.png");
+        background-image: url("/img/shb.png");
         background-attachment: fixed;
-        
-        
         background-repeat: no-repeat;
         background-position: center center;
-        background-attachment: fixed;
         background-size: cover;
             
     }
@@ -122,7 +121,6 @@
         border-radius: 100%;
         border: solid 2px white;
         background-color: white;
-        display: block;
         font-size: 1em;
         height: 2.5em;
         line-height: 2.5em;
@@ -155,7 +153,7 @@
 
     .links-list li a {
         display: block;
-        background-image: url("/img/backgr.jpg");
+        background-image: url("/img/bg.jpg");
         background-size: cover;
         border-radius: 50px;
         border: 1px solid black;

@@ -32,7 +32,7 @@
         
         font-family: 'Raleway', sans-serif;
         color: white;
-        background-image: url("/img/shotbacklira.png");
+        background-image: url("/img/shl.png");
         background-attachment: fixed;
         
         
@@ -160,7 +160,7 @@
 
     .links-list li a {
         display: block;
-        background-image: url("/img/backgr.jpg");
+        background-image: url("/img/bg.jpg");
         background-size: cover;
         margin-right: 90px;
         border-radius: 50px;
