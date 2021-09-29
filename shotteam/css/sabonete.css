@@ -32,7 +32,7 @@
         
         font-family: 'Raleway', sans-serif;
         color: white;
-        background-image: url("/img/shb.png");
+        background-image: url("/img/shs.png");
         background-attachment: fixed;
         
         
@@ -47,7 +47,7 @@
         width: 80px;
         text-decoration: none;
         position: absolute;
-        top: 17%;
+        top: 12%;
         right: 75%;
         z-index: 10;
 
@@ -61,8 +61,8 @@
             width: 80px;
             text-decoration: none;
             position: absolute;
-            top: 17%;
-            left: 75%;
+            top: 9%;
+            right: 75%;
             z-index: 10;
 
 
@@ -162,7 +162,7 @@
         display: block;
         background-image: url("/img/bg.jpg");
         background-size: cover;
-        margin: 0 40px;
+        margin-right: 90px;
         border-radius: 50px;
         border: 1px solid black;
         box-shadow: 0 0 30px black;
