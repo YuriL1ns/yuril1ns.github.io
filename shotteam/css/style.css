@@ -41,7 +41,7 @@
         
         font-family: 'Raleway', sans-serif;
         
-        background-image: url("img/shb.png");
+        background-image: url("../img/shb.png");
         background-attachment: fixed;
         background-repeat: no-repeat;
         background-position: center center;
@@ -160,7 +160,7 @@
 
     .links-list li a {
         display: block;
-        background-image: url("img/bg.jpg");
+        background-image: url("../img/bg.jpg");
         background-size: cover;
         border-radius: 50px;
         border: 1px solid black;
