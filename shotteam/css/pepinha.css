@@ -4,188 +4,191 @@
 
 }
 
-html, body {
-    height: 100%;
-}
+@media only screen and (max-width: 600px) {
 
-.back {
-    height: 100%;
-    width: 390px;
-    
-    
-}
+    html, body {
+        height: 100%;
+    }
 
-.down {
-    font-family:'Courier New', Courier, monospace;
-    font-size: 15pt;
-    margin: 0;
-    background-color: black;
-    color: white;
-    text-shadow: 5px 5px 5px black;
-    
-}
+    .back {
+        height: 100%;
+        width: 390px;
+        
+        
+    }
 
-
-body {
-     
-    font-family: 'Raleway', sans-serif;
-    color: white;
-    background-image: url("/img/shotbackpepinha.png");
-    background-attachment: fixed;
-    
-    
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
-    background-size: cover;
-		
-}
-
-.codwhi {
-    width: 80px;
-    text-decoration: none;
-    position: absolute;
-    top: 15%;
-    left: 75%;
-    z-index: 10;
+    .down {
+        font-family:'Courier New', Courier, monospace;
+        font-size: 15pt;
+        margin: 0;
+        background-color: black;
+        color: white;
+        text-shadow: 5px 5px 5px black;
+        
+    }
 
 
-}
-    
-    
+    body {
+        
+        font-family: 'Raleway', sans-serif;
+        color: white;
+        background-image: url("/img/shotbackpepinha.png");
+        background-attachment: fixed;
+        
+        
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: fixed;
+        background-size: cover;
+            
+    }
 
-.activision {
-    
+    .codwhi {
         width: 80px;
         text-decoration: none;
         position: absolute;
-        top: 12%;
+        top: 15%;
         left: 75%;
         z-index: 10;
 
 
+    }
         
-}
+        
 
-.logo {
-    width: 150px;
-    background-color: black;
-    border-radius: 50px;
-    border: 0px solid black;
-    box-shadow: 0 0 30px black;
-    
-}
-
-h1 {
-    font-family: 'Sedgwick Ave Display', cursive;
-    font-weight: 100;
-    font-size: 28pt;
-    margin-bottom: 0px;
-    text-shadow: 4px 4px 10px black;
-    
-}
-h2 {
-    font-size: 10px;
-    margin: 0;
-
-}
-
-h3 {
-    font-size: 12px;
-    margin-top: 0px;
-    margin-bottom: 10px;
-}
-
-h5 {
-    font-family: 'Sedgwick Ave Display', cursive;
-    font-weight: 100;
-    font-size: 12pt;
-    margin-bottom: 0px;
-    text-shadow: 2px 2px 8px black;
-}
-
-.profile {
-    margin-top: 20px;
-    text-align: center;
-}
+    .activision {
+        
+            width: 80px;
+            text-decoration: none;
+            position: absolute;
+            top: 12%;
+            left: 75%;
+            z-index: 10;
 
 
-.social {
-    display: flex;
-    justify-content: space-around;
-    list-style: none;
+            
+    }
 
-}
-.social img {
-    border-radius: 100%;
-    border: solid 2px white;
-    background-color: white;
-    display: block;
-    font-size: 1em;
-    height: 2.5em;
-    line-height: 2.5em;
-    position: relative;
-    text-align: center;
-    top: 0;
-    width: 2.5em;
-}
-.social-list {
-    width: 33px;
-    margin-top: 2px;
-    
-    
-}
+    .logo {
+        width: 150px;
+        background-color: black;
+        border-radius: 50px;
+        border: 0px solid black;
+        box-shadow: 0 0 30px black;
+        
+    }
+
+    h1 {
+        font-family: 'Sedgwick Ave Display', cursive;
+        font-weight: 100;
+        font-size: 28pt;
+        margin-bottom: 0px;
+        text-shadow: 4px 4px 10px black;
+        
+    }
+    h2 {
+        font-size: 10px;
+        margin: 0;
+
+    }
+
+    h3 {
+        font-size: 12px;
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+
+    h5 {
+        font-family: 'Sedgwick Ave Display', cursive;
+        font-weight: 100;
+        font-size: 12pt;
+        margin-bottom: 0px;
+        text-shadow: 2px 2px 8px black;
+    }
+
+    .profile {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+
+    .social {
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+
+    }
+    .social img {
+        border-radius: 100%;
+        border: solid 2px white;
+        background-color: white;
+        display: block;
+        font-size: 1em;
+        height: 2.5em;
+        line-height: 2.5em;
+        position: relative;
+        text-align: center;
+        top: 0;
+        width: 2.5em;
+    }
+    .social-list {
+        width: 33px;
+        margin-top: 2px;
+        
+        
+    }
 
 
 
-.codimg {
-    width: 150px;
-}
+    .codimg {
+        width: 150px;
+    }
 
 
-.links-list {
-    list-style: none;
-    text-align: center;
-    
+    .links-list {
+        list-style: none;
+        text-align: center;
+        
 
-}
+    }
 
-.links-list li {
-    margin: 20px 20px;
-    
+    .links-list li {
+        margin: 20px 20px;
+        
 
-}
+    }
 
-.links-list li a {
-    display: block;
-    background-image: url("/img/backgr.jpg");
-    background-size: cover;
-    margin-right: 90px;
-    border-radius: 50px;
-    border: 1px solid black;
-    box-shadow: 0 0 30px black;
-    border-radius: 20px;
-    text-decoration: none;
-    color:black;
-    font-weight: bold;
+    .links-list li a {
+        display: block;
+        background-image: url("/img/backgr.jpg");
+        background-size: cover;
+        margin-right: 90px;
+        border-radius: 50px;
+        border: 1px solid black;
+        box-shadow: 0 0 30px black;
+        border-radius: 20px;
+        text-decoration: none;
+        color:black;
+        font-weight: bold;
 
-}
+    }
 
-.links-list li a span {
-    color: rgb(80, 80, 80);
-    display: block;
-    margin-top: 5px;
-    margin-bottom: 2px;
-}
+    .links-list li a span {
+        color: rgb(80, 80, 80);
+        display: block;
+        margin-top: 5px;
+        margin-bottom: 2px;
+    }
 
-.footer {
-    align-self: baseline;
-    font-family: 'Oldenburg', cursive;;
-    margin-top: 40px;
-    display: block;
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding: 10px 0px;
-    font-weight: bold;
+    .footer {
+        align-self: baseline;
+        font-family: 'Oldenburg', cursive;;
+        margin-top: 100px;
+        display: block;
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 10px 0px;
+        font-weight: bold;
+    }
 }
