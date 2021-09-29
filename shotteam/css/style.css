@@ -19,6 +19,15 @@
         
     }
 
+    .port {font-family:'Courier New', Courier, monospace;
+        font-size: 15pt;
+        margin: 0;
+        background-color: black;
+        color: white;
+        text-shadow: 5px 5px 5px black;
+
+    }
+
     .down {
         font-family:'Courier New', Courier, monospace;
         font-size: 15pt;
@@ -33,8 +42,8 @@
     body {
         
         font-family: 'Raleway', sans-serif;
-        color: white;
-        background-image: url("/img/shb.png");
+        
+        background-image: url("./img/shb.png");
         background-attachment: fixed;
         background-repeat: no-repeat;
         background-position: center center;
@@ -153,7 +162,7 @@
 
     .links-list li a {
         display: block;
-        background-image: url("/img/bg.jpg");
+        background-image: url("./img/bg.jpg");
         background-size: cover;
         border-radius: 50px;
         border: 1px solid black;
