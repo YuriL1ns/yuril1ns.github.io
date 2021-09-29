@@ -33,7 +33,7 @@
             
             font-family: 'Raleway', sans-serif;
             color: white;
-            background-image: url("./img/she.png");
+            background-image: url("img/she.png");
             background-attachment: fixed;
             
             
@@ -161,7 +161,7 @@
 
         .links-list li a {
             display: block;
-            background-image: url("./img/bg.jpg");
+            background-image: url("img/bg.jpg");
             background-size: cover;
             margin-right: 95px;
             border-radius: 50px;
