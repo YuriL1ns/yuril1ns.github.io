@@ -10,20 +10,52 @@ html, body {
 
 
 body {
+        
     font-family: 'Raleway', sans-serif;
     color: white;
-    background: rgb(54,204,195);
-    background: linear-gradient(180deg, rgba(54,204,195,1) 0%, rgba(23,64,94,1) 100%);background-color: #364dcc;
+    background-image: url("/site/images/back-one.png");
     background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+        
 }
 
 .logo {
-    width: 100px;
-    border-radius: 50px;
-    border: 3px solid white;
-    box-shadow: 0 0 20px white;
+    width: 150px;
+    background-color: #26e5ff;
+    border-radius: 100px;
+    border: 0px solid #26e5ff;
+    box-shadow: 0 0 50px #26e5ff;
+    
 }
 
+
+.cod {
+    width: 80px;
+    text-decoration: none;
+    position: absolute;
+    top: 15%;
+    right: 75%;
+    z-index: 10;
+
+
+}
+    
+    
+
+.activision {
+    
+        width: 80px;
+        text-decoration: none;
+        position: absolute;
+        top: 12%;
+        right: 75%;
+        z-index: 10;
+
+
+        
+}
 
 h1 {
     font-family: 'Oldenburg', cursive;
@@ -54,10 +86,20 @@ h3 {
     list-style: none;
 
 }
-.social img {
-    width: 33px;
 
+.social img {
+    border-radius: 100%;
+    border: solid 2px #26e5ff;
+    background-color: #26e5ff;
+    font-size: 1em;
+    height: 2.5em;
+    line-height: 2.5em;
+    position: relative;
+    text-align: center;
+    top: 0;
+    width: 2.5em;
 }
+
 .social-list {
     width: 33px;
 }
@@ -91,12 +133,17 @@ h3 {
 
 .links-list li a {
     display: block;
-    background-color: white;
-    padding: 15px 20px;
-    border-radius: 4px;
+    background-image: url("/site/images/backthree.jpg");
+    background-size: cover;
+    border-radius: 50px;
+    border: 1px solid #26e5ff;
+    box-shadow: 0 0 30px #26e5ff;
+    border-radius: 20px;
     text-decoration: none;
-    color: rgb(54,204,195);
+    color: #26e5ff;
     font-weight: bold;
+    
+
 
 }
 
@@ -111,7 +158,7 @@ h3 {
     font-family: 'Oldenburg', cursive;;
     margin-top: 40px;
     display: block;
-    background-color: black;
+    background-color: #26e5ff;
     color: white;
     text-align: center;
     padding: 10px 0px;
