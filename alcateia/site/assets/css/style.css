@@ -13,7 +13,8 @@ body {
         
     font-family: 'Raleway', sans-serif;
     color: white;
-    background-image: url("../site/assets/css/images/back-one.png");
+    background: linear-gradient( 
+        180deg, rgba(54,204,195,1) 0%, rgba(23,64,94,1) 100%);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center center;
@@ -133,7 +134,7 @@ h3 {
 
 .links-list li a {
     display: block;
-    background-image: url(".../site/assets/css/images/backthree.jpg");
+    background-color: whitesmoke;
     background-size: cover;
     border-radius: 50px;
     border: 1px solid #26e5ff;
