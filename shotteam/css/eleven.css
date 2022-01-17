@@ -33,7 +33,7 @@
             
             font-family: 'Raleway', sans-serif;
             color: white;
-            background-image: url("../img/she.png");
+            background-image: url("../img/shee.png");
             background-attachment: fixed;
             
             
@@ -158,12 +158,11 @@
             
 
         }
-
         .links-list li a {
             display: block;
             background-image: url("../img/bg.jpg");
             background-size: cover;
-            margin-right: 95px;
+            margin-left: 90px;
             border-radius: 50px;
             border: 1px solid black;
             box-shadow: 0 0 30px black;
@@ -171,24 +170,26 @@
             text-decoration: none;
             color:black;
             font-weight: bold;
-
+    
         }
-
+    
         .links-list li a span {
             color: rgb(80, 80, 80);
             display: block;
             margin-top: 5px;
             margin-bottom: 2px;
         }
-
+    
         .footer {
             align-self: baseline;
             font-family: 'Oldenburg', cursive;;
-            margin-top: 100px;
             display: block;
             background-color: black;
             color: white;
+            position: absolute;
             text-align: center;
-            padding: 10px 0px;
             font-weight: bold;
+            bottom: 0;
+            width: 100%;
         }
+    

@@ -33,7 +33,7 @@
         
         font-family: 'Raleway', sans-serif;
         color: white;
-        background-image: url("../img/shbb.png");
+        background-image: url("../img/shbb1.png");
         background-attachment: fixed;
         
         
@@ -184,11 +184,12 @@
     .footer {
         align-self: baseline;
         font-family: 'Oldenburg', cursive;;
-        margin-top: 100px;
         display: block;
         background-color: black;
         color: white;
+        position: absolute;
         text-align: center;
-        padding: 10px 0px;
         font-weight: bold;
+        bottom: 0;
+        width: 100%;
     }
