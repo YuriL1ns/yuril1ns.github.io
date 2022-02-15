@@ -156,23 +156,8 @@ h2 {
   color: black;
 }
 
-/* Footer */
 
-#footer {
-  color: #fff;
-  bottom: 0;
-  cursor: default;
-  height: 6em;
-  left: 0;
-  line-height: 8em;
-  position: absolute;
-  text-align: center;
-  width: 100%;
-}
 
-.nome {
-  color: #fff;
-}
 
 
 
