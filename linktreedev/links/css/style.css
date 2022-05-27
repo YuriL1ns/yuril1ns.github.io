@@ -216,9 +216,9 @@ h2 {
 }
 
 .blockchain {
-  margin-top: 10%;
+  
   display: flex;
-  flex-wrap: wrap;
+  
   justify-content: center;
 }
 
